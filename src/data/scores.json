@@ -1,0 +1,64 @@
+{
+    "teams": [
+        {
+            "name": "Homers Pin Pals",
+            "players": [
+                {
+                    "name": "Anita Tilley",
+                    "Hcp": 45, 
+                    "Avg": 150,
+                    "Gms": 0,
+                    "Pins": 0,
+                    "Hgs": 0,
+                    "HSS": 0
+                },
+                {
+                    "name": "Paul Bexley",
+                    "Hcp": 27, 
+                    "Avg": 169,
+                    "Gms": 0,
+                    "Pins": 0,
+                    "Hgs": 0,
+                    "HSS": 0
+                },
+                {
+                    "name": "Jon Ng",
+                    "Hcp": 30, 
+                    "Avg": 166,
+                    "Gms": 3,
+                    "Pins": 466,
+                    "Hgs": 190,
+                    "HSS": 466
+                },
+                {
+                    "name": "Gemma Robinson",
+                    "Hcp": 40,
+                    "Avg": 155,
+                    "Gms": 3,
+                    "Pins": 477,
+                    "Hgs": 181,
+                    "HSS": 477
+                },
+                {
+                    "name": "Lewis Place",
+                    "Hcp": 0, 
+                    "Avg": 0,
+                    "Gms": 0,
+                    "Pins": 0,
+                    "Hgs": 0,
+                    "HSS": 0
+                },
+                {
+                    "name": "Jamie",
+                    "Hcp": 67, 
+                    "Avg": 125,
+                    "Gms": 0,
+                    "Pins": 0,
+                    "Hgs": 0,
+                    "HSS": 0
+                }
+            ]
+        }
+        
+    ]
+}
