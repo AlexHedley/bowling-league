@@ -8,6 +8,21 @@ WBBA
 
 - [2022](2022/README.md)
 
+## Site
+
+[View Site](https://alexhedley.github.io/bowling/)
+[localhost](http://localhost:8000/)
+
+- [Changelog](CHANGELOG.md)
+- [Contributors](CONTRIBUTORS.md)
+- [Acknowledgements](ACKNOWLEDGEMENTS.md)
+
+## Run
+
+`cd src`
+
+`py -m http.server`
+
 ## Venue
 
 - [Riverside Bowling](https://www.riversidebowling.co.uk/)
