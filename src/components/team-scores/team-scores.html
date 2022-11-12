@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="row">
+    <div ng-repeat="team in $ctrl.teams" class="col-md-6">
+      <h2>{{team.name}}</h2>
+      <div>
+        <table class="sortable">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Hcp</th>
+              <th>Avg</th>
+              <th>Gms</th>
+              <th>Pins</th>
+              <th>Hgs</th>
+              <th>HSS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="player in team.players">
+              <td>{{player.name}}</td>
+              <td>{{player.Hcp}}</td>
+              <td>{{player.Avg}}</td>
+              <td>{{player.Gms}}</td>
+              <td>{{player.Pins}}</td>
+              <td>{{player.Hgs}}</td>
+              <td>{{player.HSS}}</td>
+            </tr>
+          </tbody>
+          <!-- <tfoot></tfoot> -->
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
