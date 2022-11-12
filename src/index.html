@@ -1,71 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" ng-app="myApp">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-        <meta name="description" content="Bowling League">
-        <meta name="keywords" content="bowling, league">
-        <meta name="author" content="Alex Hedley">
+    <meta name="description" content="Bowling League" />
+    <meta name="keywords" content="bowling, league" />
+    <meta name="author" content="Alex Hedley" />
 
-        <link rel="stylesheet" href="styles/app.css">
-        <link rel="stylesheet" href="styles/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/app.css" />
+    <link rel="stylesheet" href="styles/vendor/bootstrap.min.css" />
 
-        <link rel="shortcut icon" href="favicon.ico">
-        
-        <title>Bowling League</title>
-    </head>
-    <body ng-controller="myController">
+    <link rel="shortcut icon" href="favicon.ico" />
 
-        <header>
-            <p>Wednesday Night Trios League</p>
-        </header>
+    <title>Bowling League</title>
+  </head>
+  <body ng-controller="myController">
+    <header>
+      <p>Wednesday Night Trios League</p>
+    </header>
 
-        <div class="container">
-            <div class="row">
-                <div ng-repeat="team in teams" class="col-md-6">
-                    <h2>{{team.name}}</h2>
-                    <div>
-                    
-                        <table class="sortable">
-                            <thead>
-                                <tr>
-                                    <th>Name</th>
-                                    <th>Hcp</th>
-                                    <th>Avg</th>
-                                    <th>Gms</th>
-                                    <th>Pins</th>
-                                    <th>Hgs</th>
-                                    <th>HSS</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr ng-repeat="player in team.players">
-                                    <td>{{player.name}}</td>
-                                    <td>{{player.Hcp}}</td>
-                                    <td>{{player.Avg}}</td>
-                                    <td>{{player.Gms}}</td>
-                                    <td>{{player.Pins}}</td>
-                                    <td>{{player.Hgs}}</td>
-                                    <td>{{player.HSS}}</td>
-                                </tr>
-                            </tbody>
-                            <!-- <tfoot></tfoot> -->
-                        </table>
+    <team-scores teams="teams"></team-scores>
 
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- SCRIPTS -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script> -->
+    <script src="scripts/vendor/bootstrap.min.js"></script>
+    <script src="scripts/vendor/angular.min.js"></script>
+    <!-- <script src="scripts/vendor/angular-filter.min.js"></script> -->
+    <script src="scripts/vendor/sorttable.js"></script>
 
-        <!-- SCRIPTS -->
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script> -->
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script> -->
-        <script src="scripts/vendor/bootstrap.min.js"></script>
-        <script src="scripts/vendor/angular.min.js"></script>
-        <!-- <script src="scripts/vendor/angular-filter.min.js"></script> -->
-        <script src="scripts/vendor/sorttable.js"></script>
-
-        <script src="scripts/app.js"></script>
-    </body>
+    <script src="scripts/app.js"></script>
+    <script src="components/team-scores/team-scores.component.js"></script>
+  </body>
 </html>
