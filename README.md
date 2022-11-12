@@ -8,6 +8,10 @@ WBBA
 
 - [2022](2022/README.md)
 
+## Docs
+
+- [docs](docs/README.md)
+
 ## Site
 
 [View Site](https://alexhedley.github.io/bowling/)
