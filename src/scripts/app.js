@@ -1,16 +1,21 @@
 var myApp = angular.module("myApp", []);
 myApp.controller("myController", function ($scope, $http, $q, $filter) {
-  $scope.teams = [];
+  $scope.teamScores = [];
+  $scope.league;
 
   $scope.init = function () {
     getData();
   };
 
   getData = () => {
-    var file = "data/scores.json";
+    var leagueFile = "data/league.json";
+    $http.get(leagueFile).then(function (response) {
+      $scope.league = response.data.teams;
+    });
 
-    $http.get(file).then(function (response) {
-      $scope.teams = response.data.teams;
+    var scoresFile = "data/scores.json";
+    $http.get(scoresFile).then(function (response) {
+      $scope.teamScores = response.data.teams;
     });
   };
 
