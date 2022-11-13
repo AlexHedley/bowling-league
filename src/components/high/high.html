@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>{{$ctrl.title}}</h2>
+      <h3>Male</h3>
+      <p ng-repeat="player in $ctrl.players.males">
+        {{player.name}} {{player.score}}
+      </p>
+      <h3>Female</h3>
+      <p ng-repeat="player in $ctrl.players.females">
+        {{player.name}} {{player.score}}
+      </p>
+    </div>
+  </div>
+</div>
