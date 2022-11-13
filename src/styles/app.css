@@ -23,3 +23,18 @@ table.sortable tbody tr:nth-child(2n+1) td {
     background: #ccffff;
 }
 */
+
+/* League */
+
+league > div > div > div > table > tbody tr:nth-child(1) td {
+    color: red !important;
+}
+league > div > div > div > table > tbody tr:nth-child(2) td {
+    color: blue !important;
+}
+league > div > div > div > table > tbody tr:nth-child(3) td {
+    color: green !important;
+}
+league > div > div > div > table > tbody tr:nth-child(4) td {
+    color: black !important;
+}
