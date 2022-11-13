@@ -10,6 +10,7 @@ myApp.controller("myController", function ($scope, $http, $q, $filter) {
   $scope.highTeamSeriesScore;
   $scope.highTeamGameHcp;
   $scope.highTeamSeriesHcp;
+  $scope.fixtures;
 
   $scope.init = function () {
     getData();
@@ -59,6 +60,11 @@ myApp.controller("myController", function ($scope, $http, $q, $filter) {
     var highTeamSeriesHcpFile = "data/high-team-series-hcp.json";
     $http.get(highTeamSeriesHcpFile).then(function (response) {
       $scope.highTeamSeriesHcp = response.data.teams;
+    });
+
+    var fixturesFile = "data/fixtures.json";
+    $http.get(fixturesFile).then(function (response) {
+      $scope.fixtures = response.data.fixtures;
     });
   };
 
