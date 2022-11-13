@@ -26,6 +26,20 @@
     <league league="league"></league>
     <br />
     <team-scores teams="teamScores"></team-scores>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <high title="'High Scores'" players="highGame"></high>
+        </div>
+        <div class="col-md-4">
+          <high title="'High Series'" players="highSeries"></high>
+        </div>
+        <div class="col-md-4">
+          <high title="'High Average'" players="highAverage"></high>
+        </div>
+      </div>
+    </div>
 
     <!-- SCRIPTS -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script> -->
@@ -38,5 +52,6 @@
     <script src="scripts/app.js"></script>
     <script src="components/league/league.component.js"></script>
     <script src="components/team-scores/team-scores.component.js"></script>
+    <script src="components/high/high.component.js"></script>
   </body>
 </html>

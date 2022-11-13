@@ -1,0 +1,25 @@
+{
+  "date": "2022-10-05",
+  "players": {
+    "males": [
+      {
+        "name": "Paul Jackson",
+        "score": 206
+      },
+      {
+        "name": "Mike Bostock",
+        "score": 195
+      },
+      {
+        "name": "Jon Ng",
+        "score": 190
+      }
+    ],
+    "females": [
+      {
+        "name": "Gemma Robinson",
+        "score": 181
+      }
+    ]
+  }
+}
