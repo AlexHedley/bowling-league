@@ -2,6 +2,14 @@ var myApp = angular.module("myApp", []);
 myApp.controller("myController", function ($scope, $http, $q, $filter) {
   $scope.teamScores = [];
   $scope.league;
+  $scope.teamScores;
+  $scope.highGame;
+  $scope.highSeries;
+  $scope.highAverage;
+  $scope.highTeamGameScore;
+  $scope.highTeamSeriesScore;
+  $scope.highTeamGameHcp;
+  $scope.highTeamSeriesHcp;
 
   $scope.init = function () {
     getData();
@@ -31,6 +39,26 @@ myApp.controller("myController", function ($scope, $http, $q, $filter) {
     var highAverageFile = "data/high-average.json";
     $http.get(highAverageFile).then(function (response) {
       $scope.highAverage = response.data.players;
+    });
+
+    var highTeamGameScoreFile = "data/high-team-game-score.json";
+    $http.get(highTeamGameScoreFile).then(function (response) {
+      $scope.highTeamGameScore = response.data.teams;
+    });
+
+    var highTeamSeriesScoreFile = "data/high-team-series-score.json";
+    $http.get(highTeamSeriesScoreFile).then(function (response) {
+      $scope.highTeamSeriesScore = response.data.teams;
+    });
+
+    var highTeamGameHcpFile = "data/high-team-game-hcp.json";
+    $http.get(highTeamGameHcpFile).then(function (response) {
+      $scope.highTeamGameHcp = response.data.teams;
+    });
+
+    var highTeamSeriesHcpFile = "data/high-team-series-hcp.json";
+    $http.get(highTeamSeriesHcpFile).then(function (response) {
+      $scope.highTeamSeriesHcp = response.data.teams;
     });
   };
 
