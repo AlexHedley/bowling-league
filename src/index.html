@@ -27,17 +27,24 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <select
-            class="subject-dropdown"
-            ng-model="chosenDate"
-            ng-change="loadFile()"
-            ng-options="date.key for date in dates track by date.value"
-          >
-            <option value="" selected>Select a Date</option>
-          </select>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="">Date</span>
+            </div>
+            <select
+              class="subject-dropdown"
+              ng-model="chosenDate"
+              ng-change="loadFile()"
+              ng-options="date.key for date in dates track by date.value"
+            >
+              <option value="" selected>Select a Date</option>
+            </select>
+          </div>
         </div>
       </div>
     </div>
+
+    <br />
 
     <league league="league"></league>
 
