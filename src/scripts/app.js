@@ -12,7 +12,10 @@ myApp.controller("myController", function ($scope, $http, $q, $filter) {
   $scope.highTeamSeriesHcp;
   $scope.fixtures;
 
-  $scope.dates = [{ key: "05/10/2022", value: "2022-10-05" }];
+  $scope.dates = [
+    { key: "05/10/2022", value: "2022-10-05" },
+    { key: "12/10/2022", value: "2022-10-12" },
+  ];
   $scope.chosenDate = "";
 
   $scope.loadFile = () => {

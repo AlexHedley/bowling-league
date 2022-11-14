@@ -1,5 +1,62 @@
 [
   {
+    "date": "2022-10-12",
+    "teams": [
+      {
+        "pos": 1,
+        "name": "Same Again",
+        "won": 33,
+        "lost": 7,
+        "gms": 6,
+        "pinsh": 3558,
+        "pinss": 2709,
+        "hgs": 496,
+        "hgh": 629,
+        "hsh": 1789,
+        "hs": 49
+      },
+      {
+        "pos": 2,
+        "name": "Bomber",
+        "won": 22,
+        "lost": 18,
+        "gms": 6,
+        "pinsh": 3638,
+        "pinss": 2945,
+        "hgs": 523,
+        "hgh": 646,
+        "hsh": 1825,
+        "hs": 52
+      },
+      {
+        "pos": 3,
+        "name": "Skandia Warriors",
+        "won": 13,
+        "lost": 27,
+        "gms": 6,
+        "pinsh": 3378,
+        "pinss": 2472,
+        "hgs": 473,
+        "hgh": 620,
+        "hsh": 1781,
+        "hs": 47
+      },
+      {
+        "pos": 4,
+        "name": "Homers Pin Pals",
+        "won": 12,
+        "lost": 28,
+        "gms": 6,
+        "pinsh": 3394,
+        "pinss": 2752,
+        "hgs": 530,
+        "hgh": 620,
+        "hsh": 1749,
+        "hs": 53
+      }
+    ]
+  },
+  {
     "date": "2022-10-05",
     "teams": [
       {
@@ -7,7 +64,7 @@
         "name": "Same Again",
         "won": 16,
         "lost": 4,
-        "gms": 2,
+        "gms": 3,
         "pinsh": 1772,
         "pinss": 1322,
         "hgs": 465,
