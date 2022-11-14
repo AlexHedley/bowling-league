@@ -11,8 +11,9 @@
     <meta name="keywords" content="bowling, league" />
     <meta name="author" content="Alex Hedley" />
 
-    <link rel="stylesheet" href="styles/app.css" />
     <link rel="stylesheet" href="styles/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/app.css" />
+    <link rel="stylesheet" href="components/league/league.component.css" />
 
     <link rel="shortcut icon" href="favicon.ico" />
 
@@ -23,10 +24,29 @@
       <p>Wednesday Night Trios League</p>
     </header>
 
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <select
+            class="subject-dropdown"
+            ng-model="chosenDate"
+            ng-change="loadFile()"
+            ng-options="date.key for date in dates track by date.value"
+          >
+            <option value="" selected>Select a Date</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
     <league league="league"></league>
-    <br />
+
+    <hr />
+
     <team-scores teams="teamScores"></team-scores>
-    <br />
+
+    <hr />
+
     <div class="container">
       <div class="row">
         <div class="col-md-4">

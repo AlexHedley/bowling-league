@@ -12,15 +12,30 @@ myApp.controller("myController", function ($scope, $http, $q, $filter) {
   $scope.highTeamSeriesHcp;
   $scope.fixtures;
 
+  $scope.dates = [{ key: "05/10/2022", value: "2022-10-05" }];
+  $scope.chosenDate = "";
+
+  $scope.loadFile = () => {
+    $scope.dateValue = $scope.chosenDate.value;
+    // $scope.dateCode = $scope.chosenDate.key;
+
+    var leagueFile = "data/league.json";
+    $http.get(leagueFile).then(function (response) {
+      $scope.league = $filter("filter")(response.data, (item) => {
+        return item.date === $scope.dateValue;
+      })[0].teams;
+    });
+  };
+
   $scope.init = function () {
     getData();
   };
 
   getData = () => {
-    var leagueFile = "data/league.json";
-    $http.get(leagueFile).then(function (response) {
-      $scope.league = response.data.teams;
-    });
+    // var leagueFile = "data/league.json";
+    // $http.get(leagueFile).then(function (response) {
+    //   $scope.league = response.data.teams;
+    // });
 
     var scoresFile = "data/scores.json";
     $http.get(scoresFile).then(function (response) {
