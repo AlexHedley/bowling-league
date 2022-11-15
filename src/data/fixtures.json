@@ -1,11 +1,65 @@
 [
   {
-    "date": "2022-10-05",
+    "date": "2022-11-16",
+    "fixtures": {
+      "team1": "Bomber",
+      "team2": "Homer Pin Pals",
+      "team3": "Skandia Warriors | Same Again",
+      "team4": "Skandia Warriors | Same Again"
+    }
+  },
+  {
+    "date": "2022-11-09",
+    "fixtures": {
+      "team1": "Homer Pin Pals",
+      "team2": "Skandia Warriors",
+      "team3": "Bomber | Same Again",
+      "team4": "Bomber | Same Again"
+    }
+  },
+  {
+    "date": "2022-11-02",
+    "fixtures": {
+      "team1": "Skandia Warriors",
+      "team2": "Bomber",
+      "team3": "Homer Pin Pals",
+      "team4": "Same Again"
+    }
+  },
+  {
+    "date": "2022-10-26",
+    "fixtures": {
+      "team1": "Same Again",
+      "team2": "Skandia Warriors",
+      "team3": "Bomber",
+      "team4": "Homer Pin Pals"
+    }
+  },
+  {
+    "date": "2022-10-19",
+    "fixtures": {
+      "team1": "Bomber",
+      "team2": "Same Again",
+      "team3": "Homer Pin Pals",
+      "team4": "Skandia Warriors"
+    }
+  },
+  {
+    "date": "2022-10-12",
     "fixtures": {
       "team1": "Same Again",
       "team2": "Homer Pin Pals",
       "team3": "Skandia Warriors",
       "team4": "Bomber"
+    }
+  },
+  {
+    "date": "2022-10-05",
+    "fixtures": {
+      "team1": "?",
+      "team2": "?",
+      "team3": "?",
+      "team4": "?"
     }
   }
 ]
