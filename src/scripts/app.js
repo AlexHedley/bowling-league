@@ -23,11 +23,19 @@ myApp.controller("myController", function ($scope, $http, $q, $filter) {
   $scope.highTeamSeriesHcpFiltered;
   $scope.fixturesFiltered;
 
-  $scope.dates = [
-    { key: "05/10/2022", value: "2022-10-05" },
-    { key: "12/10/2022", value: "2022-10-12" },
-  ];
   $scope.chosenDate = "";
+
+  // Add to this
+  $scope.dates = [
+    { key: "16/11/2022", value: "2022-11-16" },
+    { key: "09/11/2022", value: "2022-11-09" },
+    { key: "02/11/2022", value: "2022-11-02" },
+    { key: "26/10/2022", value: "2022-10-26" },
+    { key: "19/10/2022", value: "2022-10-19" },
+    { key: "12/10/2022", value: "2022-10-12" },
+    { key: "05/10/2022", value: "2022-10-05" }
+  ];
+  
 
   $scope.loadFile = () => {
     $scope.dateValue = $scope.chosenDate.value;
@@ -77,6 +85,7 @@ myApp.controller("myController", function ($scope, $http, $q, $filter) {
 
   $scope.init = function () {
     getData();
+    $scope.chosenDate = { key: "09/11/2022", value: "2022-11-09" };
   };
 
   getData = () => {
