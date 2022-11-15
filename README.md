@@ -26,6 +26,7 @@ WBBA
 `cd src`
 
 `py -m http.server`
+`python -m http.server`
 
 ## Venue
 
