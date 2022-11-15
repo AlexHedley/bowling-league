@@ -1,17 +1,19 @@
-{
-  "date": "2022-10-05",
-  "teams": [
-    {
-      "name": "Bomber",
-      "score": 1813
-    },
-    {
-      "name": "Same Again",
-      "score": 1772
-    },
-    {
-      "name": "Homer Pin Pals",
-      "score": 1749
-    }
-  ]
-}
+[
+  {
+    "date": "2022-10-05",
+    "teams": [
+      {
+        "name": "Bomber",
+        "score": 1813
+      },
+      {
+        "name": "Same Again",
+        "score": 1772
+      },
+      {
+        "name": "Homer Pin Pals",
+        "score": 1749
+      }
+    ]
+  }
+]

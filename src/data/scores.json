@@ -1,214 +1,216 @@
-{
-    "date": "2022-10-05",
-    "teams": [
-        {
-            "name": "Homers Pin Pals",
-            "players": [
-                {
-                    "name": "Anita Tilley",
-                    "Hcp": 45,
-                    "Avg": 150,
-                    "Gms": 0,
-                    "Pins": 0,
-                    "Hgs": 0,
-                    "HSS": 0
-                },
-                {
-                    "name": "Paul Bexley",
-                    "Hcp": 27,
-                    "Avg": 169,
-                    "Gms": 0,
-                    "Pins": 0,
-                    "Hgs": 0,
-                    "HSS": 0
-                },
-                {
-                    "name": "Jon Ng",
-                    "Hcp": 30,
-                    "Avg": 166,
-                    "Gms": 3,
-                    "Pins": 466,
-                    "Hgs": 190,
-                    "HSS": 466
-                },
-                {
-                    "name": "Gemma Robinson",
-                    "Hcp": 40,
-                    "Avg": 155,
-                    "Gms": 3,
-                    "Pins": 477,
-                    "Hgs": 181,
-                    "HSS": 477
-                },
-                {
-                    "name": "Lewis Place",
-                    "Hcp": 0,
-                    "Avg": 0,
-                    "Gms": 0,
-                    "Pins": 0,
-                    "Hgs": 0,
-                    "HSS": 0
-                },
-                {
-                    "name": "Jamie",
-                    "Hcp": 67,
-                    "Avg": 125,
-                    "Gms": 0,
-                    "Pins": 0,
-                    "Hgs": 0,
-                    "HSS": 0
-                }
-            ]
-        },
-        {
-            "name": "Bomber",
-            "players": [
-                {
-                    "name": "Steve Gibson",
-                    "Hcp": 37,
-                    "Avg": 158,
-                    "Gms": 3,
-                    "Pins": 530,
-                    "Hgs": 186,
-                    "HSS": 530
-                },
-                {
-                    "name": "Paul Jackson",
-                    "Hcp": 30,
-                    "Avg": 166,
-                    "Gms": 3,
-                    "Pins": 525,
-                    "Hgs": 206,
-                    "HSS": 525
-                },
-                {
-                    "name": "Brian Bagerley",
-                    "Hcp": 45,
-                    "Avg": 150,
-                    "Gms": 3,
-                    "Pins": 411,
-                    "Hgs": 159,
-                    "HSS": 411
-                },
-                {
-                    "name": "Phil Henderson",
-                    "Hcp": 0,
-                    "Avg": 0,
-                    "Gms": 0,
-                    "Pins": 0,
-                    "Hgs": 0,
-                    "HSS": 0
-                },
-                {
-                    "name": "Steve Armstrong",
-                    "Hcp": 41,
-                    "Avg": 154,
-                    "Gms": 3,
-                    "Pins": 434,
-                    "Hgs": 164,
-                    "HSS": 434
-                }
-            ]
-        },
-        {
-            "name": "Same Again",
-            "players": [
-                {
-                    "name": "Tony Corner",
-                    "Hcp": 33,
-                    "Avg": 163,
-                    "Gms": 0,
-                    "Pins": 0,
-                    "Hgs": 0,
-                    "HSS": 0
-                },
-                {
-                    "name": "Derek Parton",
-                    "Hcp": 35,
-                    "Avg": 161,
-                    "Gms": 0,
-                    "Pins": 0,
-                    "Hgs": 0,
-                    "HSS": 0
-                },
-                {
-                    "name": "Mike Bostock",
-                    "Hcp": 35,
-                    "Avg": 161,
-                    "Gms": 3,
-                    "Pins": 545,
-                    "Hgs": 195,
-                    "HSS": 545
-                },
-                {
-                    "name": "Tina Roche",
-                    "Hcp": 69,
-                    "Avg": 123,
-                    "Gms": 0,
-                    "Pins": 0,
-                    "Hgs": 0,
-                    "HSS": 0
-                },
-                {
-                    "name": "Phillip Morton",
-                    "Hcp": 0,
-                    "Avg": 0,
-                    "Gms": 0,
-                    "Pins": 0,
-                    "Hgs": 0,
-                    "HSS": 0
-                },
-                {
-                    "name": "Alex Hedley",
-                    "Hcp": 70,
-                    "Avg": 122,
-                    "Gms": 3,
-                    "Pins": 366,
-                    "Hgs": 130,
-                    "HSS": 366
-                }
-            ]
-        },
-        {
-            "name": "Skandia Warriors",
-            "players": [
-                {
-                    "name": "Michael Henderson",
-                    "Hcp": 20,
-                    "Avg": 177,
-                    "Gms": 3,
-                    "Pins": 536,
-                    "Hgs": 182,
-                    "HSS": 536
-                },
-                {
-                    "name": "Paul Gardner",
-                    "Hcp": 38,
-                    "Avg": 157,
-                    "Gms": 3,
-                    "Pins": 536,
-                    "Hgs": 182,
-                    "HSS": 536
-                },
-                {
-                    "name": "Barry Henderson",
-                    "Hcp": 89,
-                    "Avg": 101,
-                    "Gms": 3,
-                    "Pins": 311,
-                    "Hgs": 112,
-                    "HSS": 311
-                },
-                {
-                    "name": "Colin Argyle",
-                    "Hcp": 28,
-                    "Avg": 168,
-                    "Gms": 3,
-                    "Pins": 391,
-                    "Hgs": 170,
-                    "HSS": 391
-                }
-            ]
-        }
-    ]
-}
+[
+    {
+        "date": "2022-10-05",
+        "teams": [
+            {
+                "name": "Homers Pin Pals",
+                "players": [
+                    {
+                        "name": "Anita Tilley",
+                        "Hcp": 45,
+                        "Avg": 150,
+                        "Gms": 0,
+                        "Pins": 0,
+                        "Hgs": 0,
+                        "HSS": 0
+                    },
+                    {
+                        "name": "Paul Bexley",
+                        "Hcp": 27,
+                        "Avg": 169,
+                        "Gms": 0,
+                        "Pins": 0,
+                        "Hgs": 0,
+                        "HSS": 0
+                    },
+                    {
+                        "name": "Jon Ng",
+                        "Hcp": 30,
+                        "Avg": 166,
+                        "Gms": 3,
+                        "Pins": 466,
+                        "Hgs": 190,
+                        "HSS": 466
+                    },
+                    {
+                        "name": "Gemma Robinson",
+                        "Hcp": 40,
+                        "Avg": 155,
+                        "Gms": 3,
+                        "Pins": 477,
+                        "Hgs": 181,
+                        "HSS": 477
+                    },
+                    {
+                        "name": "Lewis Place",
+                        "Hcp": 0,
+                        "Avg": 0,
+                        "Gms": 0,
+                        "Pins": 0,
+                        "Hgs": 0,
+                        "HSS": 0
+                    },
+                    {
+                        "name": "Jamie",
+                        "Hcp": 67,
+                        "Avg": 125,
+                        "Gms": 0,
+                        "Pins": 0,
+                        "Hgs": 0,
+                        "HSS": 0
+                    }
+                ]
+            },
+            {
+                "name": "Bomber",
+                "players": [
+                    {
+                        "name": "Steve Gibson",
+                        "Hcp": 37,
+                        "Avg": 158,
+                        "Gms": 3,
+                        "Pins": 530,
+                        "Hgs": 186,
+                        "HSS": 530
+                    },
+                    {
+                        "name": "Paul Jackson",
+                        "Hcp": 30,
+                        "Avg": 166,
+                        "Gms": 3,
+                        "Pins": 525,
+                        "Hgs": 206,
+                        "HSS": 525
+                    },
+                    {
+                        "name": "Brian Bagerley",
+                        "Hcp": 45,
+                        "Avg": 150,
+                        "Gms": 3,
+                        "Pins": 411,
+                        "Hgs": 159,
+                        "HSS": 411
+                    },
+                    {
+                        "name": "Phil Henderson",
+                        "Hcp": 0,
+                        "Avg": 0,
+                        "Gms": 0,
+                        "Pins": 0,
+                        "Hgs": 0,
+                        "HSS": 0
+                    },
+                    {
+                        "name": "Steve Armstrong",
+                        "Hcp": 41,
+                        "Avg": 154,
+                        "Gms": 3,
+                        "Pins": 434,
+                        "Hgs": 164,
+                        "HSS": 434
+                    }
+                ]
+            },
+            {
+                "name": "Same Again",
+                "players": [
+                    {
+                        "name": "Tony Corner",
+                        "Hcp": 33,
+                        "Avg": 163,
+                        "Gms": 0,
+                        "Pins": 0,
+                        "Hgs": 0,
+                        "HSS": 0
+                    },
+                    {
+                        "name": "Derek Parton",
+                        "Hcp": 35,
+                        "Avg": 161,
+                        "Gms": 0,
+                        "Pins": 0,
+                        "Hgs": 0,
+                        "HSS": 0
+                    },
+                    {
+                        "name": "Mike Bostock",
+                        "Hcp": 35,
+                        "Avg": 161,
+                        "Gms": 3,
+                        "Pins": 545,
+                        "Hgs": 195,
+                        "HSS": 545
+                    },
+                    {
+                        "name": "Tina Roche",
+                        "Hcp": 69,
+                        "Avg": 123,
+                        "Gms": 0,
+                        "Pins": 0,
+                        "Hgs": 0,
+                        "HSS": 0
+                    },
+                    {
+                        "name": "Phillip Morton",
+                        "Hcp": 0,
+                        "Avg": 0,
+                        "Gms": 0,
+                        "Pins": 0,
+                        "Hgs": 0,
+                        "HSS": 0
+                    },
+                    {
+                        "name": "Alex Hedley",
+                        "Hcp": 70,
+                        "Avg": 122,
+                        "Gms": 3,
+                        "Pins": 366,
+                        "Hgs": 130,
+                        "HSS": 366
+                    }
+                ]
+            },
+            {
+                "name": "Skandia Warriors",
+                "players": [
+                    {
+                        "name": "Michael Henderson",
+                        "Hcp": 20,
+                        "Avg": 177,
+                        "Gms": 3,
+                        "Pins": 536,
+                        "Hgs": 182,
+                        "HSS": 536
+                    },
+                    {
+                        "name": "Paul Gardner",
+                        "Hcp": 38,
+                        "Avg": 157,
+                        "Gms": 3,
+                        "Pins": 536,
+                        "Hgs": 182,
+                        "HSS": 536
+                    },
+                    {
+                        "name": "Barry Henderson",
+                        "Hcp": 89,
+                        "Avg": 101,
+                        "Gms": 3,
+                        "Pins": 311,
+                        "Hgs": 112,
+                        "HSS": 311
+                    },
+                    {
+                        "name": "Colin Argyle",
+                        "Hcp": 28,
+                        "Avg": 168,
+                        "Gms": 3,
+                        "Pins": 391,
+                        "Hgs": 170,
+                        "HSS": 391
+                    }
+                ]
+            }
+        ]
+    }
+]

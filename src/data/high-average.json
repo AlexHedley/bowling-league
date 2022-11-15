@@ -1,25 +1,27 @@
-{
-  "date": "2022-10-05",
-  "players": {
-    "males": [
-      {
-        "name": "Michael Henderson",
-        "score": 177.9
-      },
-      {
-        "name": "Colin Argyle",
-        "score": 168.7
-      },
-      {
-        "name": "Jon Ng",
-        "score": 166.6
-      }
-    ],
-    "females": [
-      {
-        "name": "Gemma Robinson",
-        "score": 155.1
-      }
-    ]
+[
+  {
+    "date": "2022-10-05",
+    "players": {
+      "males": [
+        {
+          "name": "Michael Henderson",
+          "score": 177.9
+        },
+        {
+          "name": "Colin Argyle",
+          "score": 168.7
+        },
+        {
+          "name": "Jon Ng",
+          "score": 166.6
+        }
+      ],
+      "females": [
+        {
+          "name": "Gemma Robinson",
+          "score": 155.1
+        }
+      ]
+    }
   }
-}
+]

@@ -1,25 +1,27 @@
-{
-  "date": "2022-10-05",
-  "players": {
-    "males": [
-      {
-        "name": "Mike Bostock",
-        "score": 545
-      },
-      {
-        "name": "Michael Henderson",
-        "score": 536
-      },
-      {
-        "name": "Steve Gibson",
-        "score": 530
-      }
-    ],
-    "females": [
-      {
-        "name": "Gemma Robinson",
-        "score": 477
-      }
-    ]
+[
+  {
+    "date": "2022-10-05",
+    "players": {
+      "males": [
+        {
+          "name": "Mike Bostock",
+          "score": 545
+        },
+        {
+          "name": "Michael Henderson",
+          "score": 536
+        },
+        {
+          "name": "Steve Gibson",
+          "score": 530
+        }
+      ],
+      "females": [
+        {
+          "name": "Gemma Robinson",
+          "score": 477
+        }
+      ]
+    }
   }
-}
+]
