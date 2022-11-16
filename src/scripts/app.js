@@ -33,9 +33,14 @@ myApp.controller("myController", function ($scope, $http, $q, $filter) {
     { key: "26/10/2022", value: "2022-10-26" },
     { key: "19/10/2022", value: "2022-10-19" },
     { key: "12/10/2022", value: "2022-10-12" },
-    { key: "05/10/2022", value: "2022-10-05" }
+    { key: "05/10/2022", value: "2022-10-05" },
   ];
-  
+
+  $scope.init = function () {
+    getData();
+    // $scope.chosenDate = { key: "09/11/2022", value: "2022-11-09" };
+    // $scope.loadFile();
+  };
 
   $scope.loadFile = () => {
     $scope.dateValue = $scope.chosenDate.value;
@@ -57,35 +62,44 @@ myApp.controller("myController", function ($scope, $http, $q, $filter) {
       return item.date === $scope.dateValue;
     })[0].players;
 
-    $scope.highAverageFiltered = $filter("filter")($scope.highAverage, (item) => {
-      return item.date === $scope.dateValue;
-    })[0].players;
+    $scope.highAverageFiltered = $filter("filter")(
+      $scope.highAverage,
+      (item) => {
+        return item.date === $scope.dateValue;
+      }
+    )[0].players;
 
-    $scope.highTeamGameScoreFiltered = $filter("filter")($scope.highTeamGameScore, (item) => {
-      return item.date === $scope.dateValue;
-    })[0].teams;
+    $scope.highTeamGameScoreFiltered = $filter("filter")(
+      $scope.highTeamGameScore,
+      (item) => {
+        return item.date === $scope.dateValue;
+      }
+    )[0].teams;
 
-    $scope.highTeamSeriesScoreFiltered = $filter("filter")($scope.highTeamSeriesScore, (item) => {
-      return item.date === $scope.dateValue;
-    })[0].teams;
+    $scope.highTeamSeriesScoreFiltered = $filter("filter")(
+      $scope.highTeamSeriesScore,
+      (item) => {
+        return item.date === $scope.dateValue;
+      }
+    )[0].teams;
 
-    $scope.highTeamGameHcpFiltered = $filter("filter")($scope.highTeamGameHcp, (item) => {
-      return item.date === $scope.dateValue;
-    })[0].teams;
+    $scope.highTeamGameHcpFiltered = $filter("filter")(
+      $scope.highTeamGameHcp,
+      (item) => {
+        return item.date === $scope.dateValue;
+      }
+    )[0].teams;
 
-    $scope.highTeamSeriesHcpFiltered = $filter("filter")($scope.highTeamSeriesHcp, (item) => {
-      return item.date === $scope.dateValue;
-    })[0].teams;
-    
+    $scope.highTeamSeriesHcpFiltered = $filter("filter")(
+      $scope.highTeamSeriesHcp,
+      (item) => {
+        return item.date === $scope.dateValue;
+      }
+    )[0].teams;
+
     $scope.fixturesFiltered = $filter("filter")($scope.fixtures, (item) => {
       return item.date === $scope.dateValue;
     })[0].fixtures;
-    
-  };
-
-  $scope.init = function () {
-    getData();
-    $scope.chosenDate = { key: "09/11/2022", value: "2022-11-09" };
   };
 
   getData = () => {

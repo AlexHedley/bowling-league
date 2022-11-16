@@ -5,19 +5,231 @@
   },
   {
     "date": "2022-11-09",
-    "teams": []
+    "teams": [
+      {
+        "pos": 1,
+        "name": "Same Again",
+        "won": 64.5,
+        "lost": 55.5,
+        "gms": 18,
+        "pinsh": 10337,
+        "pinss": 7634,
+        "hgs": 496,
+        "hgh": 629,
+        "hsh": 1786,
+        "hs": 496
+      },
+      {
+        "pos": 2,
+        "name": "Homers Pin Pals",
+        "won": 64,
+        "lost": 56,
+        "gms": 18,
+        "pinsh": 10473,
+        "pinss": 8259,
+        "hgs": 530,
+        "hgh": 651,
+        "hsh": 1862,
+        "hs": 530
+      },
+      {
+        "pos": 3,
+        "name": "Skandia Warriors",
+        "won": 60,
+        "lost": 60,
+        "gms": 18,
+        "pinsh": 10448,
+        "pinss": 7943,
+        "hgs": 543,
+        "hgh": 633,
+        "hsh": 1818,
+        "hs": 543
+      },
+      {
+        "pos": 4,
+        "name": "Bomber",
+        "won": 51.5,
+        "lost": 68.5,
+        "gms": 18,
+        "pinsh": 10344,
+        "pinss": 8187,
+        "hgs": 523,
+        "hgh": 646,
+        "hsh": 1825,
+        "hs": 523
+      }
+    ]
   },
   {
     "date": "2022-11-02",
-    "teams": []
+    "teams": [
+      {
+        "pos": 1,
+        "name": "Skandia Warriors",
+        "won": 57,
+        "lost": 43,
+        "gms": 15,
+        "pinsh": 8715,
+        "pinss": 6651,
+        "hgs": 543,
+        "hgh": 633,
+        "hsh": 1818,
+        "hs": 543
+      },
+      {
+        "pos": 2,
+        "name": "Same Again",
+        "won": 50.5,
+        "lost": 49.5,
+        "gms": 15,
+        "pinsh": 8559,
+        "pinss": 6378,
+        "hgs": 496,
+        "hgh": 629,
+        "hsh": 1786,
+        "hs": 496
+      },
+      {
+        "pos": 3,
+        "name": "Bomber",
+        "won": 47,
+        "lost": 53,
+        "gms": 15,
+        "pinsh": 8611,
+        "pinss": 6850,
+        "hgs": 530,
+        "hgh": 624,
+        "hsh": 1778,
+        "hs": 530
+      },
+      {
+        "pos": 4,
+        "name": "Homers Pin Pals",
+        "won": 45.5,
+        "lost": 54.5,
+        "gms": 15,
+        "pinsh": 8676,
+        "pinss": 6918,
+        "hgs": 523,
+        "hgh": 646,
+        "hsh": 1825,
+        "hs": 523
+      }
+    ]
   },
   {
     "date": "2022-10-26",
-    "teams": []
+    "teams": [
+      {
+        "pos": 1,
+        "name": "Same Again",
+        "won": 48.5,
+        "lost": 31.5,
+        "gms": 12,
+        "pinsh": 7050,
+        "pinss": 5175,
+        "hgs": 496,
+        "hgh": 629,
+        "hsh": 1786,
+        "hs": 496
+      },
+      {
+        "pos": 2,
+        "name": "Skandia Warriors",
+        "won": 43,
+        "lost": 37,
+        "gms": 12,
+        "pinsh": 6952,
+        "pinss": 5383,
+        "hgs": 543,
+        "hgh": 633,
+        "hsh": 1818,
+        "hs": 543
+      },
+      {
+        "pos": 3,
+        "name": "Bomber",
+        "won": 39.5,
+        "lost": 40.5,
+        "gms": 12,
+        "pinsh": 7036,
+        "pinss": 5653,
+        "hgs": 523,
+        "hgh": 646,
+        "hsh": 1825,
+        "hs": 523
+      },
+      {
+        "pos": 4,
+        "name": "Homers Pin Pals",
+        "won": 29,
+        "lost": 51,
+        "gms": 12,
+        "pinsh": 6913,
+        "pinss": 5488,
+        "hgs": 530,
+        "hgh": 624,
+        "hsh": 1778,
+        "hs": 530
+      }
+    ]
   },
   {
     "date": "2022-10-19",
-    "teams": []
+    "teams": [
+      {
+        "pos": 1,
+        "name": "Same Again",
+        "won": 42.5,
+        "lost": 17.5,
+        "gms": 9,
+        "pinsh": 5303,
+        "pinss": 3932,
+        "hgs": 496,
+        "hgh": 629,
+        "hsh": 1786,
+        "hs": 49
+      },
+      {
+        "pos": 2,
+        "name": "Bomber",
+        "won": 32.5,
+        "lost": 27.5,
+        "gms": 9,
+        "pinsh": 5370,
+        "pinss": 4341,
+        "hgs": 523,
+        "hgh": 646,
+        "hsh": 1825,
+        "hs": 52
+      },
+      {
+        "pos": 3,
+        "name": "Skandia Warriors",
+        "won": 29,
+        "lost": 31,
+        "gms": 9,
+        "pinsh": 5196,
+        "pinss": 3879,
+        "hgs": 496,
+        "hgh": 633,
+        "hsh": 1818,
+        "hs": 49
+      },
+      {
+        "pos": 4,
+        "name": "Homers Pin Pals",
+        "won": 16,
+        "lost": 44,
+        "gms": 9,
+        "pinsh": 5172,
+        "pinss": 4197,
+        "hgs": 530,
+        "hgh": 624,
+        "hsh": 1778,
+        "hs": 53
+      }
+    ]
   },
   {
     "date": "2022-10-12",
