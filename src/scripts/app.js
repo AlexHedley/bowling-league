@@ -27,6 +27,7 @@ myApp.controller("myController", function ($scope, $http, $q, $filter) {
 
   // Add to this
   $scope.dates = [
+    { key: "23/11/2022", value: "2022-11-23" },
     { key: "16/11/2022", value: "2022-11-16" },
     { key: "09/11/2022", value: "2022-11-09" },
     { key: "02/11/2022", value: "2022-11-02" },
