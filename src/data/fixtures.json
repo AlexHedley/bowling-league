@@ -1,5 +1,14 @@
 [
   {
+    "date": "2022-11-23",
+    "fixtures": {
+      "team1": "Homer Pin Pals",
+      "team2": "Same Again",
+      "team3": "Bomber",
+      "team4": "Skandia Warriors"
+    }
+  },
+  {
     "date": "2022-11-16",
     "fixtures": {
       "team1": "Bomber",
